@@ -1,13 +1,25 @@
+body {
+    margin: 0;
+}
 .flexbox-navigation {
     display: flex;
     width: 100%;
     margin: 0px;
     min-height: 50px;
     background-color: antiquewhite;
+    justify-content: space-between;
 }
 .flexbox-navagation-logo {
     display: flex;
     justify-content:flex-start;
+}
+.flexbox-navigation-links {
+    display: flex;
+}
+a {
+    color: black;
+    text-decoration: none;
+    margin-right: 50px;
 }
 nav ul {
     display: flex;
@@ -17,21 +29,56 @@ nav ul {
 }
 .flexbox-hero {
     display: flex;
+    justify-content: center;
     width: 100%;
-    margin: 10px;
     height: 400px;
     background-color: antiquewhite;
 }
+.hero-image {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.hero-text {
+    /*display: grid;
+    margin-top: -300px;
+    This is an alternate way/atempt to get my ASHLEY GRANT text into/next to the hero image*/
+}
+.flexbox-newestwork {
+    display: grid;
+    background-color:antiquewhite;
+}
 .flexbox-carousel {
-
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: auto;
+    /*-webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;*/
 }
 .flexbox-aboutme {
+    display: grid;
+    background-color:antiquewhite;
+}
+.profile-image {
+    display: flex;
+    width: 200px;
+}
+.flexbox-aboutme-paragraph {
+    display: flex;
+    justify-content: end;
 
 }
 .flexbox-footer {
     display: flex;
+    justify-content: center;
     width: 100%;
     margin: 0px;
     min-height: 50px;
     background-color: antiquewhite;
 }
+.socialmediaicons {
+    width: 80px;
+}
+
+/*@media ()
+This is how to target a media queries*/
