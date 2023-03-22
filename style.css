@@ -1,86 +1,46 @@
 body {
     margin: 0;
 }
-.flexbox-navigation {
-    display: flex;
-    width: 100%;
-    margin: 0px;
-    min-height: 50px;
-    background-color: antiquewhite;
-    justify-content: space-between;
-}
-.flexbox-navagation-logo {
-    display: flex;
-    justify-content:flex-start;
-}
-nav ul {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    list-style-type: none;
-    border-color: black;
-    background-color: antiquewhite;
-}
-a {
-    margin-right: 50px;
-    padding-block: 10px;
-}
 a:link {
     color: rgb(0, 0, 0);
-    text-decoration: none;
 }
-.flexbox-hero {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 400px;
+nav ul {
     background-color: antiquewhite;
 }
-.hero-image {
-    display: flex;
+nav ul li {
+    display:flex;
+    border-radius: 10px;
+    background-color:rgb(255, 255, 255);
+    /*border: 1px solid black;*/
+    letter-spacing: .1em;
     margin-top: 10px;
     margin-bottom: 10px;
 }
-.hero-text {
-    /*display: grid;
-    margin-top: -300px;
-    This is an alternate way/atempt to get my ASHLEY GRANT text into/next to the hero image*/
-}
-.flexbox-newestwork {
-    display: grid;
-    background-color:antiquewhite;
-}
-.flexbox-carousel {
+.flexbox-logo {
     display: flex;
-    flex-wrap: nowrap;
-    overflow: auto;
-    /*-webkit-overflow-scrolling: touch;
-    -ms-overflow-style: -ms-autohiding-scrollbar;*/
-}
-.flexbox-aboutme {
-    display: grid;
-    background-color:antiquewhite;
-}
-.profile-image {
-    display: flex;
-    width: 200px;
-}
-.flexbox-aboutme-paragraph {
-    display: flex;
-    justify-content: end;
-
-}
-.flexbox-footer {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    margin: 0px;
-    min-height: 50px;
-    background-color: antiquewhite;
-}
-.socialmediaicons {
-    width: 80px;
+    align-self: center;
 }
 
-/*@media ()
-This is how to target a media queries*/
+.img-fluid {
+    width: fit-content;
+    min-height: 100px;
+}
+
+.navbar-toggler-icon {
+    display: flex;
+}
+/*.justify-content-end {
+    background-color: rgba(240, 248, 255, 0.176);
+}*/
+.navbar {
+     background-color: rgba(240, 248, 255, 0.176);
+}
+.carousel {
+
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    min-width: 100px;
+    max-width: 90%;
+}
